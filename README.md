@@ -21,7 +21,7 @@ The program checks that ``hm.exe`` is not already launched to prevent multiple i
 
 ## Download
 
-[![HostsManPortable 1.0](https://img.shields.io/badge/download-HostsManPortable%201.0%20-brightgreen.svg)](https://github.com/crazy-max/HostsManPortable/releases/download/v1.0/HostsManPortable-1.0.zip)
+[![HostsManPortable 1.1](https://img.shields.io/badge/download-HostsManPortable%201.1%20-brightgreen.svg)](https://github.com/crazy-max/HostsManPortable/releases/download/v1.1/HostsManPortable-1.1.zip)
 
 ## Usage
 
