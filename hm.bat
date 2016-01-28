@@ -10,6 +10,7 @@ SET hmData=%ProgramData%\abelhadigital.com\HostsMan
 IF EXIST %hmData% RD /S /Q %hmData%
 MD %hmData%
 
+MKLINK %hmData%\hm.cfg %currentPath%\hm.cfg
 MKLINK %hmData%\prefs.cfg %currentPath%\prefs.cfg
 MKLINK %hmData%\update.cfg %currentPath%\update.cfg
 
