@@ -1,36 +1,52 @@
-# HostsMan Portable
+<p align="center"><a href="https://github.com/crazy-max/HostsManPortable" target="_blank"><img width="100" src="https://github.com/crazy-max/HostsManPortable/blob/master/res/github-desktop.png"></a></p>
 
-Portable version of [HostsMan](http://www.abelhadigital.com/hostsman) freeware application by abelhadigital.com.
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [About](#about)
-- [Download](#download)
-- [Usage](#usage)
-- [Changelog](#changelog)
-- [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<p align="center">
+  <a href="https://github.com/crazy-max/HostsManPortable/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/HostsManPortable.svg?style=flat-square" alt="GitHub release"></a>
+  <a href="https://github.com/crazy-max/HostsManPortable/releases/latest"><img src="https://img.shields.io/github/downloads/crazy-max/HostsManPortable/total.svg?style=flat-square" alt="Total downloads"></a>
+  <a href="https://ci.appveyor.com/project/crazy-max/HostsManPortable"><img src="https://img.shields.io/appveyor/ci/crazy-max/HostsManPortable.svg?style=flat-square" alt="AppVeyor"></a>
+  <a href="https://goreportcard.com/report/github.com/crazy-max/HostsManPortable"><img src="https://goreportcard.com/badge/github.com/crazy-max/HostsManPortable?style=flat-square" alt="Go Report"></a>
+  <a href="https://www.codacy.com/app/crazy-max/HostsManPortable"><img src="https://img.shields.io/codacy/grade/f8c77f7d45d34409b16d3b957ef80cf7.svg?style=flat-square" alt="Code Quality"></a>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VG8FREHRA28JG"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://flattr.com/submit/auto?user_id=crazymax&url=https://github.com/crazy-max/HostsManPortable"><img src="https://img.shields.io/badge/flattr-this-green.svg?style=flat-square" alt="Flattr this!"></a>
+</p>
 
 ## About
 
-HostsMan originally writes configuration files in the public application data folder (C:\ProgramData).<br />
-I have made a batch file (``hm.bat``) encapsulated in an exe file (``HostsMan.exe``) with [Bat To Exe Converter](http://www.f2ko.de/en/b2e.php) that creates symlinks from the application data folder to the root folder of HostsMan.<br />
-The program checks that ``hm.exe`` is not already launched to prevent multiple instances (not managed by original HostsMan release at this time).
+A single EXE written in [Go](https://golang.org/) to make [HostsMan](http://www.abelhadigital.com/hostsman) portable on Windows systems.<br />
+Tested on Windows 7, Windows 8.1 and Windows 10.
 
-## Download
+## Installation
 
-[![HostsManPortable 1.2](https://img.shields.io/badge/download-HostsManPortable%201.2%20-brightgreen.svg)](https://github.com/crazy-max/HostsManPortable/releases/download/v1.2/HostsManPortable-1.2.zip)
+There are four different kinds of artifacts :
 
-## Usage
+* `HostsManPortable-x.x.x-x-setup.exe` : Full portable release of HostsMan as a setup. **Recommended way**!
+* `HostsManPortable-x.x.x-x.{7z,zip}` : Full portable release of HostsMan as an archive.
+* `HostsManPortable.exe` : Only the portable binary (must be dropped in the root folder near `hm.exe`)
+* `HostsMan_x.x.x.exe` : The original release from the [official website](http://www.abelhadigital.com/hostsman).
 
-Extract zip file where you want and launch ``HostsMan.exe``.
+For a **fresh installation**, install `HostsManPortable-x.x.x-x-setup.exe` where you want then run `HostsManPortable.exe`.
 
-## Changelog
+If **you have already installed HostsMan from the original setup or zip file**, do the same thing as a fresh installation and run `HostsManPortable.exe` a first time.<br />
+The data located in `%APPDATA%\abelhadigital.com\HostsMan` and `%PROGRAMDATA%\abelhadigital.com\HostsMan` will be moved to their respectives folders.<br />
+Then you can remove HostsMan from your computer.
 
-See ``CHANGELOG.md``.
+**For an upgrade**, simply download and install the [latest setup](https://github.com/crazy-max/HostsManPortable/releases/latest).
+
+## How can i help ?
+
+We welcome all kinds of contributions :raised_hands:!<br />
+The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon:<br />
+Any funds donated will be used to help further development on this project! :gift_heart:
+
+<p>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VG8FREHRA28JG">
+    <img src="https://github.com/crazy-max/HostsManPortable/blob/master/res/paypal.png" alt="Donate Paypal">
+  </a>
+  <a href="https://flattr.com/submit/auto?user_id=crazymax&url=https://github.com/crazy-max/HostsManPortable">
+    <img src="https://github.com/crazy-max/HostsManPortable/blob/master/res/flattr.png" alt="Flattr this!">
+  </a>
+</p>
 
 ## License
 
-LGPL. See ``LICENSE`` for more details.
+MIT. See `LICENSE` for more details.
