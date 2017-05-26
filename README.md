@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/crazy-max/HostsManPortable" target="_blank"><img width="100" src="https://github.com/crazy-max/HostsManPortable/blob/master/res/github-desktop.png"></a></p>
+<p align="center"><a href="https://github.com/crazy-max/HostsManPortable" target="_blank"><img width="100" src="https://github.com/crazy-max/HostsManPortable/blob/master/res/logo.png"></a></p>
 
 <p align="center">
   <a href="https://github.com/crazy-max/HostsManPortable/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/HostsManPortable.svg?style=flat-square" alt="GitHub release"></a>
