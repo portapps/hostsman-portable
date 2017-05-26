@@ -141,7 +141,7 @@
 
   <target name="release" depends="init, load.lib, hm.download, hm.process, infos, build" description="Release">
     <echo message="Writing version.dat..."/>
-    <echo file="${tmp.path}/version.dat" append="false">${app.version}-${app.release}</echo>
+    <echo file="${tmp.path}/version.dat" append="false">${hmrelease.version}-${app.release}</echo>
 
     <echo message="Creating release..."/>
     <copy file="${project.basedir}/${app.id}.exe" todir="${release.path}" overwrite="true"/>
@@ -284,7 +284,6 @@
   </target>
 
   <target name="hm.process">
-    <echo message="Extracting ${hmrelease.path}..."/>
     <unzip src="${hmrelease.path}" dest="${extract.path}"/>
     <fail message="File ${extract.path}\hm.exe not found">
       <condition>
