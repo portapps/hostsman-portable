@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.7.105-1 (2017/05/26)
+
+* New release of HostsMan : 4.7.105
+* New LICENSE
+* Upgrade project using Go
+
 ## 1.2 (2016/01/30)
 
 * Add hm.ini and update.cfg (convert to update2.cfg) symlinks from AppData folder.
