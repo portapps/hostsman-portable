@@ -6,7 +6,7 @@
   <a href="https://ci.appveyor.com/project/crazy-max/HostsManPortable"><img src="https://img.shields.io/appveyor/ci/crazy-max/HostsManPortable.svg?style=flat-square" alt="AppVeyor"></a>
   <a href="https://goreportcard.com/report/github.com/crazy-max/HostsManPortable"><img src="https://goreportcard.com/badge/github.com/crazy-max/HostsManPortable?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/crazy-max/HostsManPortable"><img src="https://img.shields.io/codacy/grade/f8c77f7d45d34409b16d3b957ef80cf7.svg?style=flat-square" alt="Code Quality"></a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VG8FREHRA28JG"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EZWH7N7DYDECQ"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
   <a href="https://flattr.com/submit/auto?user_id=crazymax&url=https://github.com/crazy-max/HostsManPortable"><img src="https://img.shields.io/badge/flattr-this-green.svg?style=flat-square" alt="Flattr this!"></a>
 </p>
 
@@ -39,7 +39,7 @@ The most basic way to show your support is to star :star2: the project, or to ra
 Any funds donated will be used to help further development on this project! :gift_heart:
 
 <p>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VG8FREHRA28JG">
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EZWH7N7DYDECQ">
     <img src="https://github.com/crazy-max/HostsManPortable/blob/master/res/paypal.png" alt="Donate Paypal">
   </a>
   <a href="https://flattr.com/submit/auto?user_id=crazymax&url=https://github.com/crazy-max/HostsManPortable">
