@@ -20,7 +20,7 @@ WizardSmallImageFile=setup-mini.bmp
 DisableWelcomePage=no
 ShowLanguageDialog=yes
 LicenseFile=license.txt
-SetupIconFile=HostsManPortable.ico
+SetupIconFile=app.ico
 
 Compression=lzma/max
 SolidCompression=yes
