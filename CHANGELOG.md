@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.7.105-2 (2017/08/26)
+
+* Upgrade to Go 1.9
+* Add support guidelines
+* Small refacotring
+
 ## 4.7.105-1 (2017/05/26)
 
 * New release of HostsMan : 4.7.105
