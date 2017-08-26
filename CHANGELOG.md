@@ -1,6 +1,6 @@
 # Changelog
 
-## 4.7.105-2 (2017/08/26)
+## 4.7.105-3 (2017/08/26)
 
 * Upgrade to Go 1.9
 * Add support guidelines
