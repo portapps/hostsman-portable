@@ -17,10 +17,10 @@ Tested on Windows 7, Windows 8.1 and Windows 10.
 
 ## Installation
 
-There are four different kinds of artifacts :
+There are different kinds of artifacts :
 
 * `HostsManPortable-x.x.x-x-setup.exe` : Full portable release of HostsMan as a setup. **Recommended way**!
-* `HostsManPortable-x.x.x-x.{7z,zip}` : Full portable release of HostsMan as an archive.
+* `HostsManPortable-x.x.x-x.7z` : Full portable release of HostsMan as a 7z archive.
 * `HostsManPortable.exe` : Only the portable binary (must be dropped in the root folder near `hm.exe`)
 * `HostsMan_x.x.x.exe` : The original release from the [official website](http://www.abelhadigital.com/hostsman).
 
