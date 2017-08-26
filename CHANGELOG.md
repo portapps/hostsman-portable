@@ -4,7 +4,7 @@
 
 * Upgrade to Go 1.9
 * Add support guidelines
-* Small refacotring
+* Small refactoring
 
 ## 4.7.105-1 (2017/05/26)
 
