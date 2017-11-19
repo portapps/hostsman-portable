@@ -5,6 +5,10 @@
 * New release of HostsMan : 4.8.106
 * Move repository to [Portapps](https://github.com/portapps) org
 * Switch to [Golang Dep](https://github.com/golang/dep) as dependency manager
+* New logger
+* Override APPDATA and PROGRAMDATA instead of using symlinks to store data
+* Do not migrate old data folder
+* Reduce dependencies and system calls to avoid heuristic detection
 * Upgrade to Go 1.9.1
 
 ## 4.7.105-3 (2017/08/26)
