@@ -18,8 +18,8 @@ Tested on Windows 7, Windows 8.1 and Windows 10.
 
 There are different kinds of artifacts :
 
-* `hostsman-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of Brave as a setup. **Recommended way**!
-* `hostsman-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of Brave as a 7z archive.
+* `hostsman-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of HostsMan as a setup. **Recommended way**!
+* `hostsman-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of HostsMan as a 7z archive.
 * `hostsman-portable-{ia32,x64}.exe` : Only the portable binary (must be renamed `hostsman-portable.exe`)
 * `HostsMan_{ia32,x64}_x.x.x.zip` : The original release from the [official website](http://www.abelhadigital.com/hostsman).
 
@@ -34,7 +34,7 @@ If **you have already installed HostsMan from the original release**, do the sam
 * `%APPDATA%\abelhadigital.com\HostsMan` to `data\UserProfile\AppData\Roaming\abelhadigital.com\HostsMan`
 * `%PROGRAMDATA%\abelhadigital.com\HostsMan` to `data\ProgramData\abelhadigital.com\HostsMan`
 
-Run `hostsman-portable.exe` and then you can [remove](https://support.microsoft.com/en-us/instantanswers/ce7ba88b-4e95-4354-b807-35732db36c4d/repair-or-remove-programs) Brave from your computer.
+Run `hostsman-portable.exe` and then you can [remove](https://support.microsoft.com/en-us/instantanswers/ce7ba88b-4e95-4354-b807-35732db36c4d/repair-or-remove-programs) HostsMan from your computer.
 
 ### Upgrade
 
