@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.8.106-4 (2017/11/19)
+
+* New release of HostsMan : 4.8.106
+* Move repository to [Portapps](https://github.com/portapps) org
+* Switch to [Golang Dep](https://github.com/golang/dep) as dependency manager
+* Upgrade to Go 1.9.1
+
 ## 4.7.105-3 (2017/08/26)
 
 * Upgrade to Go 1.9
