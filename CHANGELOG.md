@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.8.106-5 (2017/11/20)
+
+* Move app to a subfolder
+* Remove uncessesary override of some environment variables
+
+> :warning: **UPGRADE NOTES**
+> * Delete all files and folders in root folder except `data` folder.
+
 ## 4.8.106-4 (2017/11/19)
 
 * New release of HostsMan : 4.8.106
