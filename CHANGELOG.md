@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.8.106-6 (2017/11/21)
+
+* Reduce dependencies to avoid heuristic detection
+* Add UPX compression
+
 ## 4.8.106-5 (2017/11/20)
 
 * Move app to a subfolder
