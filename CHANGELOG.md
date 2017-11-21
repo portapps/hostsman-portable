@@ -3,7 +3,7 @@
 ## 4.8.106-5 (2017/11/20)
 
 * Move app to a subfolder
-* Remove uncessesary override of some environment variables
+* Remove unnecessary override of some environment variables
 
 > :warning: **UPGRADE NOTES**
 > * Delete all files and folders in root folder except `data` folder.
