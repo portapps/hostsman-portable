@@ -6,7 +6,6 @@
   <a href="https://ci.appveyor.com/project/crazy-max/hostsmanportable"><img src="https://img.shields.io/appveyor/ci/crazy-max/hostsmanportable.svg?style=flat-square" alt="AppVeyor"></a>
   <a href="https://goreportcard.com/report/github.com/portapps/hostsman-portable"><img src="https://goreportcard.com/badge/github.com/portapps/hostsman-portable?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/crazy-max/hostsman-portable"><img src="https://img.shields.io/codacy/grade/f8c77f7d45d34409b16d3b957ef80cf7.svg?style=flat-square" alt="Code Quality"></a>
-  <a href="https://saythanks.io/to/crazymax"><img src="https://img.shields.io/badge/thank-crazymax-426aa5.svg?style=flat-square" alt="Say Thanks"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WQD7AQGPDEPSG"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
