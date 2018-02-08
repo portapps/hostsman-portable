@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.8.106-7 (2018/02/09)
+
+* Ability to pass custom args to the portable process
+
 ## 4.8.106-6 (2017/11/21)
 
 * Reduce dependencies to avoid heuristic detection

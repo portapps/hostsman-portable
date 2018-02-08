@@ -3,6 +3,8 @@
 package main
 
 import (
+	"os"
+
 	. "github.com/portapps/portapps"
 )
 
@@ -27,5 +29,5 @@ func main() {
 
 	OverrideEnv("SystemDrive", Papp.DataPath)
 	OverrideEnv("USERPROFILE", PathJoin(Papp.DataPath, "UserProfile"))
-	Launch()
+	Launch(os.Args[1:])
 }
