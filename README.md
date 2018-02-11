@@ -19,14 +19,14 @@ Tested on Windows 7, Windows 8.1 and Windows 10.
 
 There are different kinds of artifacts :
 
-* `hostsman-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of HostsMan as a setup. **Recommended way**!
-* `hostsman-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of HostsMan as a 7z archive.
-* `hostsman-portable-{ia32,x64}.exe` : Only the portable binary (must be renamed `hostsman-portable.exe`)
-* `HostsMan_{ia32,x64}_x.x.x.zip` : The original release from the [official website](http://www.abelhadigital.com/hostsman).
+* `hostsman-portable-win{32,64}-x.x.x-x-setup.exe` : Full portable release of HostsMan as a setup. **Recommended way**!
+* `hostsman-portable-win{32,64}-x.x.x-x.7z` : Full portable release of HostsMan as a 7z archive.
+* `hostsman-portable-win{32,64}.exe` : Only the portable binary (must be renamed `hostsman-portable.exe`)
+* `HostsMan_win{32,64}_x.x.x.zip` : The original release from the [official website](http://www.abelhadigital.com/hostsman).
 
 ### Fresh installation
 
-Install `hostsman-portable-{ia32,x64}-x.x.x-x-setup.exe` where you want then run `hostsman-portable.exe`.
+Install `hostsman-portable-win{32,64}-x.x.x-x-setup.exe` where you want then run `hostsman-portable.exe`.
 
 ### App already installed
 
