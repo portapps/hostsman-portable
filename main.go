@@ -16,7 +16,7 @@ func init() {
 
 func main() {
 	Papp.AppPath = AppPathJoin("app")
-	Papp.DataPath = AppPathJoin("data")
+	Papp.DataPath = CreateFolder(AppPathJoin("data"))
 	Papp.Process = PathJoin(Papp.AppPath, "hm.exe")
 	Papp.Args = nil
 	Papp.WorkingDir = Papp.AppPath

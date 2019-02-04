@@ -25,7 +25,7 @@
 
 ## 4.8.106-4 (2017/11/19)
 
-* New release of HostsMan : 4.8.106
+* Upgrade to HostsMan : 4.8.106
 * Move repository to [Portapps](https://github.com/portapps) org
 * Switch to [Golang Dep](https://github.com/golang/dep) as dependency manager
 * New logger
@@ -42,7 +42,7 @@
 
 ## 4.7.105-1 (2017/05/26)
 
-* New release of HostsMan : 4.7.105
+* Upgrade to HostsMan : 4.7.105
 * New LICENSE
 * Upgrade project using Go
 
