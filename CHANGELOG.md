@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.8.106-9 (2019/02/17)
+
+* Add checksums (portapps/portapps#11)
+* Switch to TravisCI
+
 ## 4.8.106-8 (2018/02/11)
 
 * Move ia32/x64 to win32/win64 for arch def
