@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.8.106-10 (2019/03/18)
+
+* Portapps 1.20.3
+
 ## 4.8.106-9 (2019/02/17)
 
 * Add checksums (portapps/portapps#11)
