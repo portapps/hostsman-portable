@@ -6,28 +6,34 @@ import (
 	"os"
 
 	. "github.com/portapps/portapps"
+	"github.com/portapps/portapps/pkg/utl"
+)
+
+var (
+	app *App
 )
 
 func init() {
-	Papp.ID = "hostsman-portable"
-	Papp.Name = "HostsMan"
-	Init()
+	var err error
+
+	// Init app
+	if app, err = New("hostsman-portable", "HostsMan"); err != nil {
+		Log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
+	}
 }
 
 func main() {
-	Papp.AppPath = AppPathJoin("app")
-	Papp.DataPath = CreateFolder(AppPathJoin("data"))
-	Papp.Process = PathJoin(Papp.AppPath, "hm.exe")
-	Papp.Args = nil
-	Papp.WorkingDir = Papp.AppPath
+	utl.CreateFolder(app.DataPath)
+	app.Process = utl.PathJoin(app.AppPath, "hm.exe")
 
 	// Create data folders
-	progDataPath := CreateFolder(PathJoin(Papp.DataPath, "ProgramData", "abelhadigital.com", "HostsMan"))
-	userProfilePath := CreateFolder(PathJoin(Papp.DataPath, "UserProfile", "AppData", "Roaming", "abelhadigital.com", "HostsMan"))
-	Log.Infof("Prog data path: %s", progDataPath)
-	Log.Infof("User profile path: %s", userProfilePath)
+	progDataPath := utl.CreateFolder(app.DataPath, "ProgramData", "abelhadigital.com", "HostsMan")
+	userProfilePath := utl.CreateFolder(app.DataPath, "UserProfile", "AppData", "Roaming", "abelhadigital.com", "HostsMan")
+	Log.Info().Msgf("Prog data path: %s", progDataPath)
+	Log.Info().Msgf("User profile path: %s", userProfilePath)
 
-	OverrideEnv("SystemDrive", Papp.DataPath)
-	OverrideEnv("USERPROFILE", PathJoin(Papp.DataPath, "UserProfile"))
-	Launch(os.Args[1:])
+	utl.OverrideEnv("SystemDrive", app.DataPath)
+	utl.OverrideEnv("USERPROFILE", utl.PathJoin(app.DataPath, "UserProfile"))
+
+	app.Launch(os.Args[1:])
 }
