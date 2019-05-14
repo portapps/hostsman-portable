@@ -34,24 +34,24 @@
 
 ## 4.8.106-4 (2017/11/19)
 
-* Upgrade to HostsMan : 4.8.106
+* HostsMan : 4.8.106
 * Move repository to [Portapps](https://github.com/portapps) org
 * Switch to [Golang Dep](https://github.com/golang/dep) as dependency manager
 * New logger
 * Override APPDATA and PROGRAMDATA instead of using symlinks to store data
 * Do not migrate old data folder
 * Reduce dependencies and system calls to avoid heuristic detection
-* Upgrade to Go 1.9.1
+* Go 1.9.1
 
 ## 4.7.105-3 (2017/08/26)
 
-* Upgrade to Go 1.9
+* Go 1.9
 * Add support guidelines
 * Small refactoring
 
 ## 4.7.105-1 (2017/05/26)
 
-* Upgrade to HostsMan : 4.7.105
+* HostsMan : 4.7.105
 * New LICENSE
 * Upgrade project using Go
 
