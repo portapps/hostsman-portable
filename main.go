@@ -5,20 +5,21 @@ package main
 import (
 	"os"
 
-	. "github.com/portapps/portapps"
-	"github.com/portapps/portapps/pkg/utl"
+	"github.com/portapps/portapps/v2"
+	"github.com/portapps/portapps/v2/pkg/log"
+	"github.com/portapps/portapps/v2/pkg/utl"
 )
 
 var (
-	app *App
+	app *portapps.App
 )
 
 func init() {
 	var err error
 
 	// Init app
-	if app, err = New("hostsman-portable", "HostsMan"); err != nil {
-		Log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
+	if app, err = portapps.New("hostsman-portable", "HostsMan"); err != nil {
+		log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
 	}
 }
 
@@ -29,8 +30,8 @@ func main() {
 	// Create data folders
 	progDataPath := utl.CreateFolder(app.DataPath, "ProgramData", "abelhadigital.com", "HostsMan")
 	userProfilePath := utl.CreateFolder(app.DataPath, "UserProfile", "AppData", "Roaming", "abelhadigital.com", "HostsMan")
-	Log.Info().Msgf("Prog data path: %s", progDataPath)
-	Log.Info().Msgf("User profile path: %s", userProfilePath)
+	log.Info().Msgf("Prog data path: %s", progDataPath)
+	log.Info().Msgf("User profile path: %s", userProfilePath)
 
 	utl.OverrideEnv("SystemDrive", app.DataPath)
 	utl.OverrideEnv("USERPROFILE", utl.PathJoin(app.DataPath, "UserProfile"))
