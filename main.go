@@ -36,5 +36,6 @@ func main() {
 	utl.OverrideEnv("SystemDrive", app.DataPath)
 	utl.OverrideEnv("USERPROFILE", utl.PathJoin(app.DataPath, "UserProfile"))
 
+	defer app.Close()
 	app.Launch(os.Args[1:])
 }
