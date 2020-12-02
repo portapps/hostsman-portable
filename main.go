@@ -5,9 +5,9 @@ package main
 import (
 	"os"
 
-	"github.com/portapps/portapps/v2"
-	"github.com/portapps/portapps/v2/pkg/log"
-	"github.com/portapps/portapps/v2/pkg/utl"
+	"github.com/portapps/portapps/v3"
+	"github.com/portapps/portapps/v3/pkg/log"
+	"github.com/portapps/portapps/v3/pkg/utl"
 )
 
 var (
@@ -33,8 +33,8 @@ func main() {
 	log.Info().Msgf("Prog data path: %s", progDataPath)
 	log.Info().Msgf("User profile path: %s", userProfilePath)
 
-	utl.OverrideEnv("SystemDrive", app.DataPath)
-	utl.OverrideEnv("USERPROFILE", utl.PathJoin(app.DataPath, "UserProfile"))
+	os.Setenv("SystemDrive", app.DataPath)
+	os.Setenv("USERPROFILE", utl.PathJoin(app.DataPath, "UserProfile"))
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
