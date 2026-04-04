@@ -1,9 +1,9 @@
 //go:generate go install -v github.com/josephspurrier/goversioninfo/cmd/goversioninfo
-//go:generate goversioninfo -icon=res/papp.ico -manifest=res/papp.manifest
 package main
 
 import (
 	"os"
+	"path/filepath"
 
 	"github.com/portapps/portapps/v3"
 	"github.com/portapps/portapps/v3/pkg/log"
@@ -25,7 +25,7 @@ func init() {
 
 func main() {
 	utl.CreateFolder(app.DataPath)
-	app.Process = utl.PathJoin(app.AppPath, "hm.exe")
+	app.Process = filepath.Join(app.AppPath, "hm.exe")
 
 	// Create data folders
 	progDataPath := utl.CreateFolder(app.DataPath, "ProgramData", "abelhadigital.com", "HostsMan")
@@ -34,7 +34,7 @@ func main() {
 	log.Info().Msgf("User profile path: %s", userProfilePath)
 
 	os.Setenv("SystemDrive", app.DataPath)
-	os.Setenv("USERPROFILE", utl.PathJoin(app.DataPath, "UserProfile"))
+	os.Setenv("USERPROFILE", filepath.Join(app.DataPath, "UserProfile"))
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
